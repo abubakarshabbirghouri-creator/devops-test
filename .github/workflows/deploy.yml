@@ -21,3 +21,4 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           source: "./*"
           target: "/abubakar/personal/"
+          port: 22
